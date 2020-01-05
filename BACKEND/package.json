@@ -1,0 +1,24 @@
+{
+  "name": "BACKEND",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/loader.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start src/loader.js --name todo-list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "mongose": "0.0.2-security",
+    "node-restful": "0.2.5",
+    "pm2": "2.1.5"
+  },
+  "devDependencies": {
+    "mongoose": "5.8.3",
+    "nodemon": "1.11.0"
+  }
+}
